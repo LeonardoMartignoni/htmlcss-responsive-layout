@@ -21,3 +21,27 @@ nav {
     list-style: none;
     display: inline-block;
 }
+
+/* Main */
+
+section {
+    padding: 50px 0;
+}
+
+/* First Section */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col {
+    width: calc(100% / 3 - 40px / 3);
+    height: 100px;
+    background-color: var(--first-section-color);
+}
+
+.col-large {
+    width: calc(100% / 3 * 2 - 20px / 3);
+}
