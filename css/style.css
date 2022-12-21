@@ -96,6 +96,17 @@ section {
     justify-content: center;
 }
 
+/* Benefits Section */
+
+.benefits .row {
+    gap: 30px;
+}
+
+.benefits .col {
+    width: calc(100% / 3 - 60px / 3);
+    background-color: white;
+}
+
 
 /* Media Queries */
 
@@ -119,6 +130,13 @@ section {
 
     .plan-section-content .side {
         width: 100%;
+    }
+
+    /* Benefits Section */
+
+    .benefits .col {
+        width: calc(100% / 2 - 30px / 2);
+        background-color: white;
     }
 }
 
@@ -144,5 +162,12 @@ section {
         width: 100%;
         padding: 20px 0;
         text-align: center;
+    }
+
+    /* Benefits Section */
+
+    .benefits .col {
+        width: 100%;
+        background-color: white;
     }
 }
