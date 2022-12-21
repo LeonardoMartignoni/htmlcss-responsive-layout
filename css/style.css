@@ -107,6 +107,27 @@ section {
     background-color: white;
 }
 
+/* About Us Section */
+
+.about-us {
+    display: flex;
+}
+
+.about-us-left-side {
+    width: 70%;
+}
+
+.about-us-right-side {
+    width: 30%;
+}
+
+.about-us-img {
+    max-width: 250px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: url("../img/about.jpg") center/cover no-repeat;
+}
+
 
 /* Media Queries */
 
@@ -169,5 +190,23 @@ section {
     .benefits .col {
         width: 100%;
         background-color: white;
+    }
+
+    /* About Us Section */
+
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-us-left-side {
+        width: 100%;
+    }
+
+    .about-us-right-side {
+        width: 100%;
+    }
+
+    .about-us-img {
+        width: 180px;
     }
 }
