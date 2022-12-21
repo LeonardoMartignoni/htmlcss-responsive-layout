@@ -1,4 +1,23 @@
 :root {
     --primary-color: #9792E4;
-    --secondary-color: #B5DDFF;
+    --secondary-color: #0084FD;
+    --first-section-color: #B5DDFF;
+}
+
+/* Header */
+
+header {
+    background-color: var(--secondary-color);
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav-side li {
+    list-style: none;
+    display: inline-block;
 }
