@@ -4,6 +4,10 @@
     --first-section-color: #B5DDFF;
 }
 
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 /* Header */
 
 header {
