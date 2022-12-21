@@ -50,6 +50,23 @@ section {
     width: calc(100% / 3 * 2 - 20px / 3);
 }
 
+/* Second Section */
+
+.plan-section-content {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.plan-section-content .side {
+    width: calc(50% - 25px);
+
+    /* debug */
+    height: 50px;
+    background-color: beige;
+}
+
+
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
@@ -59,5 +76,23 @@ section {
 
     .hamburger-menu {
         display: inline-block;
+    }
+
+    .plan-section-content {
+        flex-direction: column;
+    }
+
+    .plan-section-content .side {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
     }
 }
