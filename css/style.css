@@ -11,6 +11,7 @@ body {
 }
 
 .btn {
+    display: inline-block;
     background-color: white;
     border-radius: 50px;
     color: black;
