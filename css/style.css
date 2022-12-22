@@ -241,6 +241,7 @@ section {
     border-radius: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .testimonial-img {
@@ -257,8 +258,7 @@ section {
 }
 
 .testimonial-quote {
-    width: 70%;
-    padding: 0 20px;
+    padding: 0 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
