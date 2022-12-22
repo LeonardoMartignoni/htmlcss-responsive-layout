@@ -380,7 +380,47 @@ section {
 /* Get Started Section */
 
 .get-started {
+    color: white;
     text-align: center;
+}
+
+.get-started h2 {
+    margin: 20px 0;
+}
+
+.get-started h1 {
+    font-size: 6rem;
+    color: gold;
+    margin: 30px 0;
+}
+
+.get-started p {
+    font-weight: 300;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.get-started .btn {
+    margin: 30px 0;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    color: var(--primary-color);
+    padding: 25px 70px;
+}
+
+.get-started span {
+    font-weight: 300;
+    display: block;
+}
+
+.get-started span i {
+    vertical-align: middle;
+    margin: 0 5px;
+    font-size: 0.3rem;
+}
+
+.get-started span a {
+    text-decoration: underline;
 }
 
 /* Footer */
@@ -506,4 +546,19 @@ footer {
     .about-us-img {
         width: 180px;
     }
+
+    /* Get Started Section */
+
+    .get-started h2 {
+        font-size: 2rem;
+    }
+
+    .get-started h1 {
+        font-size: 3.5rem;
+    }
+
+    .get-started p {
+        width: 100%;
+    }
+
 }
