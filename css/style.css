@@ -7,7 +7,7 @@
 /* Generics */
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .btn {
@@ -16,15 +16,16 @@ body {
     border-radius: 50px;
     color: black;
     padding: 5px 10px;
+    cursor: pointer;
 }
 
 h1 {
     font-size: 4.5rem;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 h2 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 3rem;
 }
 
@@ -35,11 +36,12 @@ h3 {
 }
 
 p {
+    font-size: 1.2rem;
     line-height: 1.7rem;
 }
 
 .little-title {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.1rem;
 }
 
@@ -58,8 +60,8 @@ nav {
 
 .right-nav-side li {
     margin-left: 30px;
-    font-size: 1.1rem;
-    font-weight: 200;
+    font-size: 1.2rem;
+    font-weight: 400;
     color: white;
     list-style: none;
     display: inline-block;
@@ -111,13 +113,6 @@ section {
     width: calc(100% / 3 * 2 - 20px / 3);
 }
 
-.col-large .btn::before {
-    content: '\f179';
-    font-weight: 400;
-    font-family: "Font Awesome 6 Brands";
-    margin-right: 10px;
-}
-
 .col-left-side {
     width: 50%;
     padding: 20px;
@@ -135,6 +130,14 @@ section {
     color: white;
     padding: 10px 50px;
     letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.col-left-side .btn::before {
+    content: '\f179';
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+    margin-right: 10px;
 }
 
 .col-right-side {
@@ -172,12 +175,14 @@ section {
 }
 
 .plan-section-content .left-side h3 {
+    font-size: 2.3rem;
     margin-top: 100px;
 }
 
 .plan-section-content .left-side p,
 .plan-section-content .right-side p {
-    font-weight: 300;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 .plan-section-content>.right-side {
@@ -267,7 +272,7 @@ section {
 
 .testimonial-quote p {
     font-size: 1.1rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -289,6 +294,7 @@ section {
 
 .testimonial-quote .testimonial-author {
     font-size: 1.3rem;
+    font-weight: 700;
 }
 
 /* Benefits Section */
@@ -316,11 +322,13 @@ section {
 }
 
 .benefits .col h3 {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--primary-color);
 }
 
 .benefits .col p {
+    color: grey;
+    font-size: 1.1rem;
     margin: 25px 0;
 }
 
@@ -329,6 +337,7 @@ section {
     color: white;
     padding: 10px 40px;
     letter-spacing: 5px;
+    font-weight: 700;
 }
 
 /* About Us Section */
@@ -381,7 +390,7 @@ section {
     margin: 20px 0;
     color: var(--primary-color);
     font-size: 1.6rem;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 2rem;
 }
 
@@ -412,14 +421,14 @@ section {
 
 .get-started h1 {
     font-size: 6rem;
-    color: gold;
+    color: #FDC15F;
     margin: 30px 0;
 }
 
 .get-started p {
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
 }
 
 .get-started .btn {
@@ -431,7 +440,7 @@ section {
 }
 
 .get-started span {
-    font-weight: 300;
+    font-weight: 400;
     display: block;
 }
 
@@ -449,10 +458,15 @@ section {
 
 footer {
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #333333;
     text-align: center;
     padding: 40px 0;
+}
+
+footer p,
+footer span {
+    font-size: 1rem;
 }
 
 footer p {
