@@ -18,7 +18,7 @@ body {
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--secondary-color);
 }
@@ -65,7 +65,7 @@ section {
     padding: 50px 0;
 }
 
-/* Planning Section */
+/* First Section */
 
 .row {
     display: flex;
@@ -100,7 +100,7 @@ section {
 
 .col-left-side>p,
 .col>p {
-    margin: 25px 0;
+    margin-top: 25px;
     color: #444444;
 }
 
@@ -123,6 +123,7 @@ section {
 /* Second Section */
 
 .plan-section-content {
+    margin-top: 70px;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
@@ -130,10 +131,64 @@ section {
 
 .plan-section-content .side {
     width: calc(50% - 25px);
+}
 
-    /* debug */
+.plan-section-content .left-side>img {
+    width: 400px;
+}
+
+.plan-section-content .left-side h3,
+.plan-section-content .left-side p {
+    margin-top: 40px;
+    color: white;
+}
+
+.plan-section-content .left-side h3 {
+    margin-top: 100px;
+}
+
+.plan-section-content .left-side p,
+.plan-section-content .right-side p {
+    font-weight: 300;
+}
+
+.plan-section-content>.right-side {
+    align-self: flex-end;
+}
+
+.plan-section-content .right-side-content {
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.plan-section-content .right-side-content img {
+    width: 250px;
+}
+
+.plan-section-content .right-side-content h3 {
+    color: black;
+}
+
+.plan-section-content .right-side-content p {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.plan-section-content .right-side-content .right-side-icon {
+    background-color: #9792E4;
+    display: inline-block;
+    width: 50px;
     height: 50px;
-    background-color: beige;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.plan-section-content .right-side-content i {
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 50px;
 }
 
 /* Testimonial Section */
@@ -233,7 +288,7 @@ footer {
         display: inline-block;
     }
 
-    /* Planning Section */
+    /* First Section */
 
     .plan-section-content {
         flex-direction: column;
@@ -256,6 +311,27 @@ footer {
         width: 250px;
     }
 
+    /* Planning Section */
+
+    .plan-section-content .left-side>img {
+        width: 100%;
+    }
+
+    .plan-section-content .left-side h3,
+    .plan-section-content .left-side p {
+        margin-top: 40px;
+        color: white;
+    }
+
+    .plan-section-content .left-side h3 {
+        font-size: 4rem;
+        margin-top: 100px;
+    }
+
+    .plan-section-content .right-side-content img {
+        width: 100%;
+    }
+
     /* Benefits Section */
 
     .benefits .col {
@@ -266,7 +342,7 @@ footer {
 
 @media screen and (max-width: 480px) {
 
-    /* Planning Section */
+    /* First Section */
 
     .row {
         flex-direction: column;
