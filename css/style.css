@@ -17,6 +17,16 @@ body {
     padding: 5px 10px;
 }
 
+h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+p {
+    line-height: 1.7rem;
+}
+
 /* Header */
 
 header {
@@ -32,7 +42,7 @@ nav {
 
 .right-nav-side li {
     margin-left: 30px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 200;
     color: white;
     list-style: none;
@@ -55,7 +65,7 @@ section {
     padding: 50px 0;
 }
 
-/* First Section */
+/* Planning Section */
 
 .row {
     display: flex;
@@ -64,13 +74,50 @@ section {
 }
 
 .col {
+    text-align: center;
     width: calc(100% / 3 - 40px / 3);
-    height: 100px;
+    border-radius: 20px;
+    padding: 40px 20px;
     background-color: var(--first-section-color);
 }
 
+.col>i {
+    font-size: 5rem;
+    color: var(--secondary-color);
+    margin-bottom: 25px;
+}
+
 .col-large {
+    text-align: left;
+    display: flex;
+    align-items: center;
     width: calc(100% / 3 * 2 - 20px / 3);
+}
+
+.col-left-side {
+    width: 50%;
+}
+
+.col-left-side>p,
+.col>p {
+    margin: 25px 0;
+    color: #444444;
+}
+
+.col-left-side>.btn {
+    margin-top: 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 50px;
+    letter-spacing: 3px;
+}
+
+.col-right-side {
+    width: 50%;
+}
+
+.col-right-side>img {
+    max-width: 250px;
 }
 
 /* Second Section */
@@ -186,7 +233,7 @@ footer {
         display: inline-block;
     }
 
-    /* First Section */
+    /* Planning Section */
 
     .plan-section-content {
         flex-direction: column;
@@ -194,6 +241,19 @@ footer {
 
     .plan-section-content .side {
         width: 100%;
+    }
+
+    .col-large {
+        flex-direction: column;
+    }
+
+    .col-left-side,
+    .col-right-side {
+        width: 100%;
+    }
+
+    .col-right-side>img {
+        width: 250px;
     }
 
     /* Benefits Section */
@@ -205,7 +265,8 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    /* First Section */
+
+    /* Planning Section */
 
     .row {
         flex-direction: column;
