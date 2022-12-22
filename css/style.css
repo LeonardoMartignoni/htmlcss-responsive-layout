@@ -579,8 +579,12 @@ footer span a {
         width: 100%;
     }
 
-    .about-us-right-side {
+    .about-us-left-side p {
         width: 100%;
+    }
+
+    .about-us-right-side {
+        max-width: 100%;
     }
 
     .about-us-img {
