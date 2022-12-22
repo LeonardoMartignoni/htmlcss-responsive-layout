@@ -426,10 +426,27 @@ section {
 /* Footer */
 
 footer {
+    color: white;
+    font-weight: 300;
     background-color: #333333;
     text-align: center;
+    padding: 40px 0;
 }
 
+footer p {
+    margin: 0 auto;
+    width: 40%;
+}
+
+footer span {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+footer span a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
 
 /* Media Queries */
 
