@@ -4,8 +4,17 @@
     --first-section-color: #B5DDFF;
 }
 
+/* Generics */
+
 body {
     font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding: 5px 10px;
 }
 
 /* Header */
@@ -22,8 +31,16 @@ nav {
 }
 
 .right-nav-side li {
+    margin-left: 30px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: white;
     list-style: none;
     display: inline-block;
+}
+
+.right-nav-side .btn {
+    border: 5px solid white;
 }
 
 .hamburger-menu {
