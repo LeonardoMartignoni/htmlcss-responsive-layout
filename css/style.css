@@ -297,7 +297,8 @@ section {
     background-color: white;
 }
 
-.benefits .col h1 {
+.benefits .col h1,
+.about-us h1 {
     color: var(--primary-color);
 }
 
@@ -320,11 +321,21 @@ section {
 
 .about-us {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .about-us-left-side {
     width: 70%;
+}
+
+.about-us-left-side h1 {
+    margin: 30px 0;
+}
+
+.about-us-left-side p {
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
 }
 
 .about-us-right-side {
@@ -332,6 +343,8 @@ section {
 }
 
 .about-us-img {
+    margin: 0 auto;
+    position: relative;
     max-width: 250px;
     border-radius: 50%;
 }
@@ -340,6 +353,28 @@ section {
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.about-us-img .fa-quote-left {
+    font-size: 5rem;
+    color: var(--primary-color);
+    position: absolute;
+    right: 0;
+}
+
+.about-us-img-description .about-us-img-quote {
+    margin: 20px 0;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 2rem;
+}
+
+.about-us-img-description .btn {
+    font-size: 0.9rem;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 8px 20px;
 }
 
 /* Get Started Section */
