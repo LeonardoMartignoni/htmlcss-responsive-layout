@@ -103,14 +103,23 @@ section {
 }
 
 .col-large {
+    padding: 0;
     text-align: left;
     display: flex;
     align-items: center;
     width: calc(100% / 3 * 2 - 20px / 3);
 }
 
+.col-large .btn::before {
+    content: '\f179';
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+    margin-right: 10px;
+}
+
 .col-left-side {
     width: 50%;
+    padding: 20px;
 }
 
 .col-left-side>p,
@@ -128,10 +137,13 @@ section {
 }
 
 .col-right-side {
+    align-self: flex-end;
     width: 50%;
 }
 
 .col-right-side>img {
+    margin: 0 auto;
+    display: block;
     max-width: 250px;
 }
 
@@ -303,6 +315,7 @@ section {
 }
 
 .benefits .col h3 {
+    font-weight: 500;
     color: var(--primary-color);
 }
 
@@ -375,6 +388,13 @@ section {
     background-color: var(--primary-color);
     color: white;
     padding: 8px 20px;
+}
+
+.about-us-img-description .btn::before {
+    content: '\f08c';
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+    margin-right: 10px;
 }
 
 /* Get Started Section */
@@ -482,6 +502,7 @@ footer span a {
     }
 
     .col-right-side>img {
+        margin: 0;
         width: 250px;
     }
 
