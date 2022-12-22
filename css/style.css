@@ -17,8 +17,12 @@ body {
     padding: 5px 10px;
 }
 
+h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
 h2 {
-    margin: 30px 0;
     font-weight: 500;
     font-size: 3rem;
 }
@@ -209,6 +213,7 @@ section {
 }
 
 .testimonials-header h2 {
+    margin: 30px 0;
     color: var(--primary-color);
 }
 
@@ -275,13 +280,40 @@ section {
 
 /* Benefits Section */
 
+.benefits h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
 .benefits .row {
     gap: 30px;
 }
 
 .benefits .col {
+    text-align: left;
+    padding: 30px;
     width: calc(100% / 3 - 60px / 3);
     background-color: white;
+}
+
+.benefits .col h1 {
+    color: var(--primary-color);
+}
+
+.benefits .col h3 {
+    color: var(--primary-color);
+}
+
+.benefits .col p {
+    margin: 25px 0;
+}
+
+.benefits .col .btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 40px;
+    letter-spacing: 5px;
 }
 
 /* About Us Section */
